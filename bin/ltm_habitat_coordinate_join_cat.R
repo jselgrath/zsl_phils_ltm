@@ -36,3 +36,6 @@ d2a<-d2%>%
 # save
 st_write(d1a,"./gis/ltm_habitat_spatial/ltm_habitat.gpkg", layer="ltm_habitat_2010_groups", append=FALSE)
 st_write(d2a,"./gis/ltm_habitat_spatial/ltm_habitat.gpkg", layer="ltm_habitat_2012_groups", append=FALSE)
+
+st_write(d1a,"./gis/ltm_habitat_spatial/ltm_habitat_2010_groups.shp")
+st_write(d2a,"./gis/ltm_habitat_spatial/ltm_habitat_2012_groups.shp")
